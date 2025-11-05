@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo Equino</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            background-color: #f5f2ec;
+            color: #333;
+        }
+
+        header {
+            background-image: url('https://animales-itonids.com/wp-content/uploads/2018/02/horses-1414889_640.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        header h1 {
+            font-size: 3em;
+            text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+        }
+
+        nav {
+            background-color: #4a2e05;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 25px;
+            display: block;
+        }
+
+        nav a:hover {
+            background-color: #7c4f17;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        section h2 {
+            color: #4a2e05;
+            border-bottom: 2px solid #d4b483;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .galeria {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 20px;
+            justify-content: center;
+        }
+
+        .galeria img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        footer {
+            background-color: #4a2e05;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        footer a {
+            color: #d4b483;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🐎 Mundo Equino</h1>
+        <p>Pasión, fuerza y libertad sobre cuatro patas</p>
+    </header>
+
+    <nav>
+        <a href="#sobre">Sobre los caballos</a>
+        <a href="#razas">Razas</a>
+        <a href="#galeria">Galería</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <section id="sobre">
+        <h2>Sobre los caballos</h2>
+        <p>
+            Los caballos han acompañado al ser humano durante miles de años, siendo símbolo de nobleza, fuerza y elegancia.
+            Ya sea para el trabajo, el deporte o la compañía, estos animales destacan por su inteligencia y su increíble conexión con las personas.
+        </p>
+    </section>
+
+    <section id="razas">
+        <h2>Razas destacadas</h2>
+        <ul>
+            <li><strong>Pura Sangre Inglés:</strong> famoso por su velocidad en las carreras.</li>
+            <li><strong>Andaluz:</strong> originario de España, conocido por su elegancia y porte.</li>
+            <li><strong>Árabe:</strong> resistente y con una gran historia en el desierto.</li>
+            <li><strong>Percherón:</strong> una raza fuerte utilizada antiguamente para tirar carruajes.</li>
+        </ul>
+    </section>
+
+    <section id="galeria">
+        <h2>Galería</h2>
+        <div class="galeria">
+            <img src="https://tse3.mm.bing.net/th/id/OIP.t5Ji9Ed_vLAmcxAFXDK1GAHaEo?w=1600&h=1000&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Caballo Pura Sangre Inglés">
+            <img src="https://caballosyyeguas.com/wp-content/uploads/2019/07/caballo-andaluz-768x492.jpg" alt="Caballo Andaluz">
+            <img src="https://haski-mana.ru/wp-content/uploads/2/2/1/221eac2ab70fcff763e01dc9f3df6647.jpeg" alt="Caballo Árabe">
+            <img src="https://www.anipedia.net/imagenes/caballo-percheron-800x375.jpg" alt="Caballo Percherón">
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>¿Quieres saber más o colaborar con nosotros?</p>
+        <p>Escríbenos a: <a href="vale:info@mundoequino.com">info@mundoequino.com</a></p>
+    </section>
+
+    <footer>
+        <p>© 2025 Mundo Equino | Creado con ❤️ por amantes de los caballos</p>
+    </footer>
+
+</body>
+</html>
